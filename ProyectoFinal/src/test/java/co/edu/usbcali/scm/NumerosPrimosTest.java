@@ -9,8 +9,9 @@ public class NumerosPrimosTest {
 	@Test
 	public void test() {
 		NumerosPrimos numPrim = new NumerosPrimosImpl();
-		
 		numPrim.getDevuelveNumerosPrimos(1);
+		assertTrue(true);
+		
 	}
 
 }
